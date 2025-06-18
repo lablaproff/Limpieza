@@ -115,7 +115,7 @@ def calcular_mar(area_muestreo):
     area_total_fmt = formato_es(area_total)
     
     ecuacion = (
-        f"MAR \\left( \\frac{{\\text{{mg}}}}{{\\text{{hisopo}}}} \\right) = "
+        f"MAR  = "
         f"\\frac{{(0,00749 \\, \\text{{mg Detergente}} \\cdot {tamano_lotemg_fmt} \\, \\text{{mg ({nombre_tableta})}} \\cdot {area_muestreo_fmt} \\, \\text{{cm}}^2)}}"
         f"{{{peso_tableta_fmt} \\, \\text{{mg ({nombre_tableta})}} \\cdot {area_total_fmt} \\, \\text{{cm}}^2}} = {resultado} \\, \\text{{mg}}"
     )
